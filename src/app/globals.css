@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* ============================================
+   VARIÁVEIS (TOKENS DE DESIGN)
+   ============================================ */
+@theme {
+    --bg-primary: #0c0c0e;
+    --bg-secondary: #17171b;
+    --bg-light: #ffffff;
+
+    --purple-main: #8a05be;
+    --purple-light: #a333d8;
+    --purple-dark: #40005c;
+
+    --text-primary: #ffffff;
+    --text-secondary: #a8a8b3;
+    --text-light-theme: #17171b;
+
+    --status-success: #1cc88a;
+    --status-warning: #f6a609;
+    --status-danger: #e74c3c;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+body {
+    background-color: #0c0c0e;
+    color: #ffffff;
+    min-height: 100vh;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   SCROLL BAR
+   ============================================ */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: linear-gradient(to bottom, #40005c, #17171b); }
+::-webkit-scrollbar-thumb { background: #40005c; border-radius: 8px; }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #40005c #17171b;
+}
