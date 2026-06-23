@@ -18,10 +18,10 @@ Este projeto segue uma filosofia que considero essencial: **dominar os fundament
 
 Por isso, ele existe em **duas versões**:
 
-| Versão | Stack | Pasta |
-|--------|-------|-------|
-| **Vanilla** | HTML, CSS, JavaScript puro | `project-1-my-landing-page` |
-| **Moderna** | Next.js, React, TypeScript, Tailwind | `project-1-my-landing-page-stack` |
+| Versão | Stack | Link |
+|--------|-------|------|
+| **Vanilla** | HTML, CSS, JavaScript puro | [Ver demo](https://rehqueirog.github.io/p1-landing-page-vanilla/) |
+| **Moderna** | Next.js, React, TypeScript, Tailwind | [Ver demo](https://p1-landing-page-stack.vercel.app/) |
 
 A versão Vanilla foi construída primeiro — cada linha de HTML semântico, cada regra CSS com design tokens e cada função JavaScript pura. Depois, migrei o mesmo projeto para a stack moderna, componente por componente.
 
@@ -48,7 +48,7 @@ O projeto está em constante evolução:
 - [x] Migração CSS para Tailwind
 - [x] Responsivo (mobile, tablet, desktop)
 - [x] README profissional
-- [ ] Deploy na Vercel
+- [x] Deploy na Vercel e GitHub Pages
 - [ ] Adicionar blog com Next.js
 - [ ] Integração com API de contato
 
@@ -77,16 +77,9 @@ Antes de começar, verifique se você tem:
 ## Como Rodar Localmente
 
 ```bash
-# Clone o repositório
-git clone https://github.com/renatoqueiroga/portfolio-fullstack.git
-
-# Entre na pasta da versão moderna
-cd project-1-my-landing-page-stack
-
-# Instale as dependências
+git clone https://github.com/rehqueirog/p1-landing-page-stack.git
+cd p1-landing-page-stack
 pnpm install
-
-# Rode o servidor de desenvolvimento
 pnpm dev
 ```
 
@@ -127,7 +120,8 @@ src/
 
 ## Deploy
 
-[renatoqueiroga.vercel.app](https://renatoqueiroga.vercel.app)
+Stack Moderna: [p1-landing-page-stack](https://github.com/rehqueirog/p1-landing-page-stack)  
+Vanilla: [p1-landing-page-stack.vercel.app](https://p1-landing-page-stack.vercel.app/)
 
 ---
 
@@ -146,7 +140,7 @@ src/
 
 Renato Queiroga — Desenvolvedor Full Stack
 
-<table> <tr> <td align="center"> <a href="https://linkedin.com/in/renatoqueiroga" title="LinkedIn"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/><br> <sub><b>LinkedIn</b></sub> </a> </td> <td align="center"> <a href="https://github.com/renatoqueiroga" title="GitHub"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/><br> <sub><b>GitHub</b></sub> </a> </td> <td align="center"> <a href="https://wa.me/5583982033982" title="WhatsApp"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/><br> <sub><b>WhatsApp</b></sub> </a> </td> </tr> </table>
+<table> <tr> <td align="center"> <a href="https://www.linkedin.com/in/renato-queiroga-024899411/" title="LinkedIn"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/><br> <sub><b>LinkedIn</b></sub> </a> </td> <td align="center"> <a href="https://github.com/rehqueirog" title="GitHub"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/><br> <sub><b>GitHub</b></sub> </a> </td> <td align="center"> <a href="https://www.instagram.com/renatoqueirog/" title="Instagram"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/><br> <sub><b>Instagram</b></sub> </a> </td> <td align="center"> <a href="https://wa.me/5583982033982" title="WhatsApp"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/><br> <sub><b>WhatsApp</b></sub> </a> </td> </tr> </table>
 
 ---
 
